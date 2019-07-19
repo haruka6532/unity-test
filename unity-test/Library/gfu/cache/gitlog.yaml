@@ -13,9 +13,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-07-19T09:28:25.564+09:00
+  lastUpdatedAtString: 2019-07-19T09:29:28.553+09:00
   initializedAtString: 2019-07-19T09:28:25.262+09:00
   log:
+  - commitID: 463a30366fb6d0d294b55ff90f686c0ac2138086
+    mergeA: 
+    mergeB: 
+    authorName: haru6532
+    authorEmail: k7pgn8nebpu6c@outlook.jp
+    commitEmail: k7pgn8nebpu6c@outlook.jp
+    commitName: haru6532
+    summary: update
+    description: 
+    timeString: 2019-07-19T09:29:24.000+09:00
+    commitTimeString: 2019-07-19T09:29:24.000+09:00
+    changes:
+    - path: unity-test/Assets/NewBehaviourScript.cs
+      fullPath: /Users/haru/projects/unity-test/unity-test/Assets/NewBehaviourScript.cs
+      projectPath: Assets/NewBehaviourScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Assets/NewBehaviourScript.cs.meta
+      fullPath: /Users/haru/projects/unity-test/unity-test/Assets/NewBehaviourScript.cs.meta
+      projectPath: Assets/NewBehaviourScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/StateCache/Hierarchy/8854e6-mainStage.json
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/StateCache/Hierarchy/8854e6-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/8854e6-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/assetDatabase3
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/branches.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
+      projectPath: Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
+      projectPath: Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: unity-test/Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/haru/projects/unity-test/unity-test/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: unity-test/Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
+      fullPath: /Users/haru/projects/unity-test/unity-test/Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
+      projectPath: Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 30bc9aa0c2a2380513ab392a985374aca0dd08f8
     mergeA: 
     mergeB: 

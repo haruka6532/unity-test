@@ -13,21 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-19T09:29:18.508+09:00
+  lastUpdatedAtString: 2019-07-19T09:30:28.904+09:00
   initializedAtString: 2019-07-19T09:27:29.720+09:00
   entries:
   - path: unity-test/Assets/NewBehaviourScript.cs
     fullPath: /Users/haru/projects/unity-test/unity-test/Assets/NewBehaviourScript.cs
     projectPath: Assets/NewBehaviourScript.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity-test/Assets/NewBehaviourScript.cs.meta
-    fullPath: /Users/haru/projects/unity-test/unity-test/Assets/NewBehaviourScript.cs.meta
-    projectPath: Assets/NewBehaviourScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: unity-test/Library/assetDatabase3
     fullPath: /Users/haru/projects/unity-test/unity-test/Library/assetDatabase3
     projectPath: Library/assetDatabase3
@@ -38,20 +32,14 @@ MonoBehaviour:
     fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity-test/Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: unity-test/Library/gfu/cache/gitlog.yaml
     fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitlog.yaml
     projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: unity-test/Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
@@ -64,45 +52,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity-test/Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
     fullPath: /Users/haru/projects/unity-test/unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
     projectPath: Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
-    projectPath: Library/metadata/7e/7efafb255fdce4f34bbf3e4aa5e29bd1.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity-test/Library/ScriptAssemblies/Assembly-CSharp.dll
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/ScriptAssemblies/Assembly-CSharp.dll
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity-test/Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity-test/Library/StateCache/Hierarchy/8854e6-mainStage.json
-    fullPath: /Users/haru/projects/unity-test/unity-test/Library/StateCache/Hierarchy/8854e6-mainStage.json
-    projectPath: Library/StateCache/Hierarchy/8854e6-mainStage.json
+  - path: unity-test/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/haru/projects/unity-test/unity-test/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: unity-test/Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
-    fullPath: /Users/haru/projects/unity-test/unity-test/Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
-    projectPath: Temp/UnityTempFile-6981f103925da47f0bbf27bd7494729c
+    workTreeStatus: 5
+  - path: unity-test/Temp/UnityTempFile-4b07593b102414e92915816f62ca9964
+    fullPath: /Users/haru/projects/unity-test/unity-test/Temp/UnityTempFile-4b07593b102414e92915816f62ca9964
+    projectPath: Temp/UnityTempFile-4b07593b102414e92915816f62ca9964
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

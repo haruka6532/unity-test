@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
 
-namespace CompletedAssets
+public class Explosion : MonoBehaviour
 {
-	public class Explosion : MonoBehaviour
-	{
-		void OnAnimationFinish ()
-		{
-			Destroy (gameObject);
-		}
-	}
+  void OnAnimationFinish ()
+  {
+    Destroy (gameObject);
+  }
 }

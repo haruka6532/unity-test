@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
 
-namespace CompletedAssets
+public class DestroyArea:MonoBehaviour
 {
-	public class DestroyArea : MonoBehaviour
+	void OnTriggerExit2D(Collider2D c)
 	{
-		void OnTriggerExit2D (Collider2D c)
-		{
-			Destroy (c.gameObject);
-		}
+		Destroy(c.gameObject);
 	}
 }

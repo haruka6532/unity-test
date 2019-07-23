@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3140836705892931097}
   - component: {fileID: 7167601013165339859}
   - component: {fileID: 4485971017104172025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  lifeTime: 1
 --- !u!1 &4724167621680441882
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +79,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3822270537466249491}
   - component: {fileID: 5244325361931096025}
-  m_Layer: 0
+  - component: {fileID: 415618184550431218}
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,6 +149,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &415618184550431218
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724167621680441882}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0141308755, y: 0.08}
+      - {x: -0.03186387, y: 0.039798412}
+      - {x: -0.03186387, y: 0.021007882}
+      - {x: -0.016397893, y: -0.08}
+      - {x: 0.010730371, y: -0.08}
+      - {x: 0.032997377, y: 0.006070694}
+      - {x: 0.032997377, y: 0.033929314}
+      - {x: 0.01413089, y: 0.078866474}
 --- !u!1 &7127761826623350346
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +192,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1439905147646693627}
   - component: {fileID: 7372129928229707945}
-  m_Layer: 0
+  - component: {fileID: 3646190219380280431}
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,3 +262,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &3646190219380280431
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7127761826623350346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0141308755, y: 0.08}
+      - {x: -0.03186387, y: 0.039798412}
+      - {x: -0.03186387, y: 0.021007882}
+      - {x: -0.016397893, y: -0.08}
+      - {x: 0.010730371, y: -0.08}
+      - {x: 0.032997377, y: 0.006070694}
+      - {x: 0.032997377, y: 0.033929314}
+      - {x: 0.01413089, y: 0.078866474}

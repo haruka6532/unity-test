@@ -103,10 +103,9 @@ GameObject:
   - component: {fileID: 7831155025634972845}
   - component: {fileID: 460812440}
   - component: {fileID: 460812438}
-  - component: {fileID: 460812439}
   - component: {fileID: 6626286054775963025}
-  - component: {fileID: 460812444}
   - component: {fileID: 2785487083460569391}
+  - component: {fileID: 7521961633493289027}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -231,24 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748bc74c1fabf4c5cbcca4c2475615f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &460812439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7831155025634972844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b7e499a3a0f4538b1fa1dceb277cb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  shotDelay: 0.3
-  bullet: {fileID: 6641988570008169650, guid: a72fb24f9d23444b7bc5b4f4e0731986, type: 3}
-  canShot: 1
-  explosion: {fileID: 915936337222171280, guid: a7ed0315d0e664da9bcb03d47e23e682,
-    type: 3}
+  hp: 1
 --- !u!60 &6626286054775963025
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -283,18 +265,6 @@ PolygonCollider2D:
       - {x: 0.24278158, y: -0.15208626}
       - {x: 0.24278158, y: 0.1911265}
       - {x: 0.18743366, y: 0.2343879}
---- !u!114 &460812444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7831155025634972844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 748bc74c1fabf4c5cbcca4c2475615f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2785487083460569391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,3 +277,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748bc74c1fabf4c5cbcca4c2475615f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1
+--- !u!114 &7521961633493289027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831155025634972844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b7e499a3a0f4538b1fa1dceb277cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  shotDelay: 0.3
+  bullet: {fileID: 6641988570008169650, guid: a72fb24f9d23444b7bc5b4f4e0731986, type: 3}
+  canShot: 1
+  explosion: {fileID: 915936337222171280, guid: a7ed0315d0e664da9bcb03d47e23e682,
+    type: 3}

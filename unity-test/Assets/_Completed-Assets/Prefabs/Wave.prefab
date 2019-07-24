@@ -107,7 +107,7 @@ PrefabInstance:
     - target: {fileID: 2785487083460569391, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: hp
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}
       propertyPath: hp
@@ -116,12 +116,17 @@ PrefabInstance:
     - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: canShot
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
+        type: 3}
+      propertyPath: shotDelay
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}
@@ -206,7 +211,7 @@ PrefabInstance:
     - target: {fileID: 2785487083460569391, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: hp
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}
       propertyPath: hp
@@ -215,12 +220,17 @@ PrefabInstance:
     - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: canShot
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
+        type: 3}
+      propertyPath: shotDelay
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}
@@ -305,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 2785487083460569391, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: hp
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}
       propertyPath: hp
@@ -314,7 +324,12 @@ PrefabInstance:
     - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
         type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521961633493289027, guid: 146c61ae7544a43ab9dfc07a6a88e7a5,
+        type: 3}
+      propertyPath: canShot
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 460812438, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 3}

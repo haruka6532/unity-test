@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 2, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 400014}
   - {fileID: 400026}
@@ -325,8 +325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b7e499a3a0f4538b1fa1dceb277cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  shotDelay: 0.6
+  speed: 0.4
+  shotDelay: 0.8
   bullet: {fileID: 6939734108734243816, guid: 7e45c09bc99f5482e8c9250d1c775910, type: 3}
   canShot: 1
   explosion: {fileID: 915936337222171280, guid: a7ed0315d0e664da9bcb03d47e23e682,
@@ -473,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 2, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 400010}
   - {fileID: 400022}
@@ -587,8 +587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b7e499a3a0f4538b1fa1dceb277cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  shotDelay: 0.6
+  speed: 0.4
+  shotDelay: 0.8
   bullet: {fileID: 6939734108734243816, guid: 7e45c09bc99f5482e8c9250d1c775910, type: 3}
   canShot: 1
   explosion: {fileID: 915936337222171280, guid: a7ed0315d0e664da9bcb03d47e23e682,
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748bc74c1fabf4c5cbcca4c2475615f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 150
-  point: 6500
+  hp: 300
+  point: 15000
 --- !u!60 &6000004
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748bc74c1fabf4c5cbcca4c2475615f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 180
+  hp: 100
   point: 6500
 --- !u!60 &6000002
 PolygonCollider2D:

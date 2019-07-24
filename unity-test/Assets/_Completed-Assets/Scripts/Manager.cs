@@ -31,6 +31,7 @@ public class Manager : MonoBehaviour
 
   public void GameOver ()
   {
+    FindObjectOfType<Score>().Save();
     // ゲームオーバー時に、タイトルを表示する
     title.SetActive (true);
   }

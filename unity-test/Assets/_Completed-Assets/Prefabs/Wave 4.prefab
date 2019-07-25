@@ -1273,7 +1273,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: bf3bdd2147b394bc2b771f2556f0b49d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dadabae0325a44db5911a3d1fa9c495a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1294,7 +1294,7 @@ Animator:
   m_GameObject: {fileID: 100036}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: de4409197d82a40be8bd895aeffd2dcc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 729390147b0884fa38e9c140d532a894, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1338,7 +1338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   shotDelay: 2.5
-  bullet: {fileID: 6641988570008169650, guid: a72fb24f9d23444b7bc5b4f4e0731986, type: 3}
+  bullet: {fileID: 7936504374461113728, guid: 6f5623dbd19754126997ebdf05ecb677, type: 3}
   canShot: 1
   explosion: {fileID: 915936337222171280, guid: a7ed0315d0e664da9bcb03d47e23e682,
     type: 3}
@@ -1373,7 +1373,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 0.96}
+    oldSize: {x: 1.2, y: 0.81}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
